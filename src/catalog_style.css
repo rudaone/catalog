@@ -1,0 +1,104 @@
+*{
+    font-family: "Roboto";
+}
+
+body{
+   display: flex;
+   justify-content: center;
+}
+main{
+    width: 1440px ;
+    font-size: 15px;
+}
+.favorite-header{
+    border-bottom: 2px solid lightgray;
+}
+
+.favorite-header-title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.favorite-header-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 32px;
+}
+
+.favorite-header-nav__buttons{
+    width: 132px;
+    height: 40px;
+    border: none;
+    background-color: white;
+    position: relative;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.favorite-header-nav__buttons:hover{
+    font-weight:700;
+}
+.favorite-header-nav__buttons:hover::after{
+    display: flex;
+    content:"";
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+   
+}
+
+.sneakers{
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+    gap: 24px;
+}
+
+.sneakers-card__shop-img{
+    width: 396px;
+    height: 396px;
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    
+}
+.sneakers-card__img{
+    position: absolute;
+}
+
+.sneakers-card__buttons{
+    display: flex;
+    z-index: 1;
+    flex-direction: column;
+    gap: 12px;
+    border:0;
+    border-radius: 10px;
+}
+
+.sneakers-card__buttons_men{
+    width: 276px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.sneakers-card__buttons_women{
+    width: 276px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
